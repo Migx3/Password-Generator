@@ -11,6 +11,7 @@ int main()
 	} while (password_length < 8 || password_length > 16);
 
 	if (password_length >= 8 && password_length <= 16) {
+		system("cls");
 		std::cout << "Generated Password: ";
 
 		for (int i = 0; i < password_length; i++) {
