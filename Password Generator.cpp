@@ -1,6 +1,5 @@
 #include <iostream>
 
-constexpr int N = 71;
 int main()
 {
 	const char password_characters[] = "0123456789!@#$%^&*abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
